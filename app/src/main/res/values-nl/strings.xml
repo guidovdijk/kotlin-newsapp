@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">student648539</string>
+
+    <!--  UI Components / Elements  -->
+    <string name="ui_topbar_title">Triple Nieuwsbrief</string>
+    <string name="ui_topbar_logout">Logout</string>
+    <string name="ui_toast_logout_error">Wij konden u niet uitloggen, probeer het astublieft opnieuw.</string>
+
+    <!--  UI Input Fields  -->
+    <string name="ui_input_placeholder_email">Bijv. johnSmith</string>
+    <string name="ui_input_placeholder_password">Bijv. johnSmith123</string>
+    <string name="ui_input_label_email">Email</string>
+    <string name="ui_input_label_password">Wachtwoord</string>
+    <string name="ui_input_empty_error">Vul astublieft alle invoervelden.</string>
+
+    <!--  Navigation  -->
+    <string name="ui_navigation_home">Home</string>
+    <string name="ui_navigation_liked">Favorieten</string>
+
+    <!--  UI Icons  -->
+    <string name="ui_icon_back">Ga terug naar vorige pagina</string>
+    <string name="ui_icon_home">Homepagina</string>
+    <string name="ui_icon_liked">Favorieten artiekelen pagina</string>
+    <string name="ui_icon_is_liked">Artiekel is toegevoegd aan favorieten</string>
+    <string name="ui_icon_is_not_liked">Artiekel is niet toegevoegd aan favorieten</string>
+    <string name="ui_icon_menu">Menu</string>
+    <string name="ui_icon_refresh">Herladen</string>
+
+    <!--  UI Screen Login  -->
+    <string name="ui_login_screen_login_text">Login</string>
+    <string name="ui_login_screen_register_text">Of registreer</string>
+
+    <!--  UI Screen Register  -->
+    <string name="ui_register_screen_login_text">Registreer</string>
+    <string name="ui_register_screen_register_text">Of login</string>
+
+    <!--  UI Screen Article Detail  -->
+    <string name="ui_articledetail_screen_uri_text">Zie volledig artiekel</string>
+
+    <!--  API  -->
+    <string name="api_error_general">Een onverwacht probleem is opgetreden. Zorg ervoor dat u een WI-FI connectie heeft en probeer het astublieft opnieuw.</string>
+    <string name="api_error_no_connection">Wij konden geen connectie maken naar de database. Zorg er astublieft voor dat u een internet connectie heeft.</string>
+
+    <string name="api_error_login_401">De gebruiker met deze email en wachtwoord combinatie bestaat niet.</string>
+    <string name="api_error_login_400">Vul astublieft de email en wachtwoord invoervelden in.</string>
+
+    <string name="api_error_register">Account met deze gebruikers naam bestaat al.</string>
+    <string name="api_success_register">Account is aangemaakt.</string>
+
+    <string name="api_error_articles_fetch">Wij konden de artiekelen niet laden. Probeer het astublieft opnieuw.</string>
+    <string name="api_error_article_fetch">Wij konden het artiekel niet laden. Probeer het astublieft opnieuw.</string>
+
+    <string name="api_success_article_liked">Het Artiekel is toegevoegd aan uw favorieten lijst.</string>
+    <string name="api_error_article_liked">Wij konden het artiekel niet toegevoegen aan uw favorieten lijst. Probeer het astublieft opnieuw.</string>
+
+    <string name="api_success_article_unliked">Artiekel is verwijderd van uw favorieten lijst.</string>
+    <string name="api_error_article_unliked">Wij konden het artiekel niet verwijderen van uw favorieten lijst. Probeer het astublieft opnieuw.</string>
+</resources>

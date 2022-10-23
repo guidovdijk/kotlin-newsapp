@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">student648539</string>
+
+    <!--  UI Components / Elements  -->
+    <string name="ui_topbar_title">Triple Newsreader</string>
+    <string name="ui_topbar_logout">Logout</string>
+    <string name="ui_toast_logout_error">We could not log you out, please try again</string>
+
+    <!--  UI Input Fields  -->
+    <string name="ui_input_placeholder_email">E.g. johnSmith</string>
+    <string name="ui_input_placeholder_password">E.g. johnSmith123</string>
+    <string name="ui_input_label_email">Email</string>
+    <string name="ui_input_label_password">Password</string>
+    <string name="ui_input_empty_error">Please do not leave any input field blank</string>
+
+    <!--  Navigation  -->
+    <string name="ui_navigation_home">Home</string>
+    <string name="ui_navigation_liked">Liked</string>
+
+    <!--  UI Icons  -->
+    <string name="ui_icon_back">Go back to previous page</string>
+    <string name="ui_icon_home">Homepage</string>
+    <string name="ui_icon_liked">Liked articles page</string>
+    <string name="ui_icon_is_liked">Article is liked</string>
+    <string name="ui_icon_is_not_liked">Article is not liked</string>
+    <string name="ui_icon_menu">Menu</string>
+    <string name="ui_icon_refresh">Refresh</string>
+
+    <!--  UI Screen Login  -->
+    <string name="ui_login_screen_login_text">Login</string>
+    <string name="ui_login_screen_register_text">Or register</string>
+
+    <!--  UI Screen Register  -->
+    <string name="ui_register_screen_login_text">Register</string>
+    <string name="ui_register_screen_register_text">Or login</string>
+
+    <!--  UI Screen Article Detail  -->
+    <string name="ui_articledetail_screen_uri_text">Show full article</string>
+
+    <!--  API  -->
+    <string name="api_error_general">An unexpected error has occurred. Please make sure you have a WI-FI connection and try again.</string>
+    <string name="api_error_no_connection">We could not connect to the database, please make sure you have an internet connection.</string>
+    <string name="api_error_login_401">The user with this email and password does not exist.</string>
+    <string name="api_error_login_400">Please do not leave the email and password field empty.</string>
+
+    <string name="api_error_register">Account with this username already exist.</string>
+    <string name="api_success_register">Account has been created.</string>
+
+    <string name="api_error_articles_fetch">We could not load the articles. Please try again.</string>
+    <string name="api_error_article_fetch">We could not load the article. Please try again.</string>
+
+    <string name="api_success_article_liked">Article is added to your liked list.</string>
+    <string name="api_error_article_liked">We could not add the article to your liked list. Please try again.</string>
+
+    <string name="api_success_article_unliked">Article is removed from your liked list.</string>
+    <string name="api_error_article_unliked">We could not remove the article from your liked list. Please try again.</string>
+</resources>
